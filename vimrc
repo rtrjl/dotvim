@@ -1,21 +1,21 @@
 " Chargement de Pathogen
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
-<<<<<<< HEAD
+
 
 " Activation de l'indentation automatique
 set autoindent
 " Redéfinition des tabulations
-=======
+
 "Activation de l'indentation automatique
 set autoindent
 "Redefinition des tabulations
->>>>>>> 430fa1947df57dd7e6c8966605f77ff20df58901
+
 set expandtab
 set shiftwidth=4
 set softtabstop=4
 set tabstop=8
-<<<<<<< HEAD
+
 " Activation de la détection automatique du type de fichier
 filetype on
 filetype plugin indent on
@@ -125,7 +125,7 @@ function! s:CursorOldPosition()
   endif
 endfunction
 autocmd BufReadPost * silent! call s:CursorOldPosition()
-=======
+
 "Activation de la detection automatique du type de fichier 
 filetype on
 filetype plugin indent on
@@ -154,4 +154,4 @@ let g:SuperTabDefaultCompletionType = "context"
 set completeopt=menuone,longest,preview
 
 
->>>>>>> 430fa1947df57dd7e6c8966605f77ff20df58901
+
